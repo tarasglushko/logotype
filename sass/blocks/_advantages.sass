@@ -1,0 +1,43 @@
+.advantages
+    background-image: url(../img/adv-fon.jpg)
+    background-repeat: no repeat
+    background-position: center
+    background-size: cover
+    min-height: 285px
+    padding: 55px 0px 40px
+    &-item
+        max-width: 360px
+    &__inner
+        display: flex
+        justify-content: space-between
+        color: #ffffff
+        text-align: center
+        padding: 0px 20px
+    &__tittle
+        font-family: 'Roboto', sans-serif
+        font-size: 18px
+        line-height: 24px
+        font-weight: 500
+        padding: 60px 0 15px
+        position: relative
+    &__tittle:before
+        content: ""
+        position: absolute
+        width: 40px
+        height: 40px
+        border: 2px solid #ffc222
+        top: 0
+        left: 50%
+        transform: translateX(-50%)
+    &__tittle:after
+        font-family: 'icomoon' !important  
+        content: "\f00c"
+        font-size: 14px
+        position: absolute
+        top: 9px
+        left: 50%
+        transform: translateX(-50%)
+    &__text
+        color: #d3d2d2
+        line-height: 24px
+        letter-spacing: 0.1px

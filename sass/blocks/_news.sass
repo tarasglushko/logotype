@@ -1,0 +1,113 @@
+.news
+    padding: 55px 0 110px
+    background-color: #f9f9f9
+    &__top
+        display: flex
+        justify-content: space-between
+        margin-bottom: 60px
+        &-box
+    &__wrap
+        max-width: 520px
+        padding-left: 140px
+        position: relative
+    &__wrap:before
+        content:  ""
+        position: absolute
+        width: 100px
+        height: 2px
+        background-color: #ffc222
+        left: 0
+        top: 11px
+    &-tittle
+        font-size: 24px
+        line-height: 24px
+        font-weight: 500
+        color: #212020
+        font-family: 'Roboto', sans-serif
+        margin-bottom: 10px
+    &__text
+        letter-spacing: 0.1px
+    &__btn a
+        color: #373636
+        line-height: 24px
+        letter-spacing: 0.25px
+        padding: 5px 38px
+        border: 3px solid #e6e6e6
+    &__inner
+        display: flex
+        justify-content: space-between
+    &__slider
+        position: relative
+        max-width: 555px
+        width: 100%
+        background-color: #ffffff
+        box-shadow: 0px 15px 15.36px 0.64px rgba(128,127 ,127 ,0.13 )
+        padding: 60px 25px 45px 70px
+        &-inner .slick-disabled
+            color: #dadada
+            border-color: #dadada
+        &-inner .slick-disabled:before
+            color: #dadada
+        &-inner .slick-btn
+            top: auto
+            bottom: -110px
+        &-inner .slick-next
+            right: -25px
+        &-inner .slick-prev
+            left: auto
+            right: 30px
+        &-tittle
+            font-size: 18px
+            line-height: 24px
+            color: #242424
+            font-weight: 500
+            font-family: 'Roboto', sans-serif
+            letter-spacing: 0.5px
+            margin-bottom: 15px
+        &-text
+            margin-bottom: 30px
+        &-author
+            letter-spacing: 0.1px
+            color: #212020
+            font-family: 'Roboto', sans-serif
+    &__slider:before 
+        position: absolute
+        top: 0
+        left: 70px
+        font-family: 'icomoon'
+        content: "\f10e"
+        height: 30px
+        width: 60px
+        font-size: 16px
+        color: #ffffff
+        background-color: #ffc222
+        line-height: 30px
+        text-align: center    
+    &__blog
+        max-width: 260px
+        width: 100%
+        position: relative
+        cursor: pointer
+        &-tittle
+            font-size: 16px
+            font-weight: 500
+            font-family: 'Roboto', sans-serif
+            color: #242424
+            letter-spacing: 0.5px
+            padding: 12px 0px
+        &-text
+            letter-spacing: 0.1px
+            color: #5e5e5e
+    &__images
+    &__date
+        position: absolute
+        background-color: #ffc222
+        width: 50px
+        height: 55px
+        padding-top: 30px
+        font-weight: 700
+        top: 0
+        left: 10px
+        color: #ffffff
+        text-align: center
+    
